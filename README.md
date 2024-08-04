@@ -9,12 +9,16 @@
 
 
 ## 1. 📅 제작 기간
-- 2024년 5월 17일 ~ 7월 3일
+- 2024년 5월 17일 ~ 7월 10일
 - 팀 프로젝트
 - 8명
 
 ## 2. 👥 R&R
-- Django Framework로 혼자 웹 페이지 개발, DB 모델링, 모델 서빙
+- WBS, 요구사항정의서, 화면설계서, 테이블정의서, ERD 작성 등 전반적인 기획 업무 수행
+- [Notion 페이지(http://literate-pea-7a5.notion.site)를 개설하여 프로젝트 일정 관리 및 팀원들과 이슈 공유
+- AWS RDS를 사용하여 데이터베이스 생성
+- AWS EC2를 활용하여 서버 구축 및 Django, Gunicorn, Nginx 연동을 통한 서비스 배포
+
 
 ## 3. 🛠️ 사용 기술
 
@@ -38,24 +42,24 @@
 ## 5. 🌐 서버 아키텍처
 <details>
         <summary>서버 아키텍처</summary>
-        <img src="서버%20아키텍쳐.png" alt="서버 아키텍처">
+        <img src=".etc/서버 아키텍쳐.png" alt="서버 아키텍처">
 </details>
 
 ## 6. 📑 ERD & 요구사항 정의서 & 화면설계서 & URL정의
 <details>
         <summary>ERD</summary>
-        <img src="FA_ERD(Light_Version).png" alt="ERD">
+        <img src=".etc/FA_ERD(Light_Version).png" alt="ERD">
 </details>
 
-[요구사항 정의서](요구사항정의서_최종.xlsx)
+[요구사항 정의서](https://docs.google.com/spreadsheets/d/1Il9BV16ZTjqsNyi-5ouTr9VUxPETHrUJ/edit?usp=drive_link&ouid=109557878554180109960&rtpof=true&sd=true)
 
-[화면설계서 PPT](FA_화면설계서_최종.pptx)
+[화면설계서 PPT](https://drive.google.com/file/d/1EnMoMCdlyq6Cunf91cyk2NJxIuXxiQrC/view?usp=drive_link)
 
 <details>
         <summary>URL 정의</summary>
-        <img src="url1.jpg" alt="url">
-        <img src="url2.jpg" alt="url">
-        <img src="url3.jpg" alt="url">
+        <img src=".etc/url1.jpg" alt="url">
+        <img src=".etc/url2.jpg" alt="url">
+        <img src=".etc/url3.jpg" alt="url">
 </details>
 
 ## 7. 💻 웹 서비스 기능
@@ -133,8 +137,10 @@
      </details>
     
 ## 8. 📂 산출물 
-- 🎬 시연영상: [시연영상 링크](웹페이지_시연영상.mp4)
-- 📄 팀 포트폴리오: [팀 포트폴리오](FA_최종_ver_2.0.pdf)
+- 🎬 시연영상: 
+	- [웹 페이지 시연영상](https://drive.google.com/file/d/1PDkAOoI2xkcpKOo8cce6ojqAUWM3F9wH/view?usp=drive_link)
+	- [챗봇 시연영상](https://drive.google.com/file/d/1IyELEk8hF47ZtOieLKYgxD9noF7ttUW3/view?usp=drive_link)
+- 📄 팀 포트폴리오: [팀 포트폴리오](https://drive.google.com/file/d/1rMFT0cGaeLinwldWUWKTjz88wQJabKHl/view?usp=drive_link)
 
 ## 9. 🛠️ 트러블 슈팅:
 1. **Nginx로 웹에 배포할 때 static 파일들이 보이지 않는 현상**
@@ -158,7 +164,7 @@
 - 요구사항 정의서, 화면설계서에 따른 화면 제작 및 각 페이지마다 권한 지정
 - DB 모델링(ERD)에 맞춰서 models.py 수정
 - 주석을 이용한 기능명세 작성
-- WBS에 맞춰 업무 진행 [WBS](FA_WBS_최종.xlsx)
+- WBS에 맞춰 업무 진행 [WBS](https://docs.google.com/spreadsheets/d/11lSEfzQOPQ6vbFkzbTNCG_EywpRgs5MK/edit?usp=drive_link&ouid=109557878554180109960&rtpof=true&sd=true)
 
 ## 11. 📝 미흡 사항 및 추후 과제
 - 장고에서 지원하는 채널을 통해 실시간 팀 채팅 구현
